@@ -1,0 +1,126 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    width: 600px;
+    /* background-color:#f4c5a4; */
+
+}
+
+header {
+    background: linear-gradient(130deg, #f6ebe2, #f5dacf, #f2beb0);
+    background-color: aquamarine;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 0px 0px;
+}
+
+header .logo img {
+    width: 30%;
+}
+
+header #issue {
+    /* background-color: rgb(255, 0, 0); */
+    padding: 10px 0px;
+
+}
+
+header #issue .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+    gap: 10px;
+
+}
+
+header #issue .content-container h2 {
+    font-size: 16px;
+    padding: 10px 5px;
+    background-color: white;
+}
+
+header #issue .content-container h2,
+header #issue .content-container h1 {
+    line-height: 0;
+}
+
+header #issue .content-container h1 span {
+    color: #fb421f;
+
+}
+
+header #issue .content-container p {
+    text-align: center;
+    width: 86%;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+header #issue .content-container a {
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+header #issue .content-container a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+header #issue .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+header #issue .image-container img {
+    width: 86%;
+    border-radius: 30px;
+
+}
+
+/* footer */
+#footer{
+    background-color: white;
+    padding: 36px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer img{
+    width: 100px;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+     gap: 15px;
+}
+
+#footer ul li{
+    font-size: 20px;
+}
+   
+
+
+

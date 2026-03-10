@@ -1,0 +1,498 @@
+#features {
+    background-color: #f6f0e9;
+    
+}
+#features .focus-container{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 10px;
+    padding:6%;   
+}
+#features {
+    background-color: #f6f0e9;
+    /* padding: 6%; */
+    
+}
+#features .focus-container{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 10px;
+    padding:6%;
+    
+    
+    
+}
+
+
+#features .focus-container .content-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features .focus-container .content-container h2 {
+    font-size: 14px;
+    padding:5px;
+    width: 68%;
+    background-color: #e3ddd1;
+}
+
+#features .focus-container .content-container h1 {
+    font-size: 24px;
+}
+
+#features .focus-container .content-container h1 span {
+    color: #fb421f;
+    
+}
+
+#features .focus-container .content-container P {
+    font-size: 14px;
+}
+
+#features .focus-container .content-container a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: flex;
+    width: 60%;
+    gap: 7px;
+    margin-top: 5px;
+    
+}
+
+
+#features .focus-container .content-container a:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+#features .focus-container .image-container{
+    /* background-color: aquamarine; */
+    width: 45%;
+    display: flex;
+    align-items: center;
+}  
+
+
+
+#features .focus-container .image-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* plain container */
+
+#features .plan-container{
+    background-image: url(/images/grid\ one.png);
+    display: flex;
+    gap: 10%;
+    margin-bottom: 10px;
+    padding: 6%;
+}
+
+
+
+#features .plan-container .image-container{
+/*     
+    background-color: #fb421f; */
+    display: flex;
+    width: 45%;
+}
+
+#features .plan-container .image-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+#features .plan-container .content-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    }
+
+
+
+#features .plan-container .content-container h2 {
+    font-size: 14px;
+    padding:5px;
+    width: 60%;
+    background-color: #e3ddd1;
+}
+
+#features .plan-container .content-container h1 {
+    font-size: 24px;
+}
+#features .plan-container .content-container h1 span {
+    color: #fb421f;
+    
+}
+
+#features .plan-container .content-container P {
+    font-size: 14px;
+}
+
+#features .plan-container .content-container a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: flex;
+    width: 80%;
+    gap: 7px;
+    margin-top: 5px;
+    
+}
+
+
+
+#features .plan-container .content-container a:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+/* customer-stories */
+
+#customer{
+    background-color: rgb(255, 255, 255);
+   padding: 6%;
+}
+
+#customer .heading {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 5px; */
+}
+#customer .heading h2{
+    font-size: 14px;
+    padding:5px;
+    width: 28%;
+    background-color: #e3ddd1;
+  
+    
+}
+
+#customer .heading h1{
+    font-size: 24px;
+    
+}
+
+#customer .heading h1 span {
+    color: #fb421f;
+}
+
+#customer .test {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6%;
+}
+
+#customer .test .left-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#customer .test .left-box .image-container img{
+    width: 47px;
+    height: 47px;
+    
+}
+
+#customer .test .left-box .image-container h2{
+    font-size: 16px;
+    /* line-height: 0.5; */
+    
+}
+
+#customer .test .left-box .image-container h3{
+    font-size: 14px;
+}
+
+#customer .test .left-box .content-container p{
+    font-size: 14px;
+}
+#customer .test .left-box .content-container img{
+    width: 35%;
+}
+
+
+/* customer-rightbox */
+#customer .test .right-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
+#customer .test .right-box .image-container img{
+    width: 47px;
+    height: 47px;
+    
+}
+
+#customer .test .right-box .image-container h2{
+    font-size: 16px;
+    /* line-height: 0.5; */
+    
+}
+
+#customer .test .right-box .image-container h3{
+    font-size: 14px;
+}
+
+#customer .test .right-box .content-container p{
+    font-size: 14px;
+}
+
+#customer .test .right-box .content-container img{
+    width: 35%;
+}
+
+
+/* take action section */
+  
+#take-action{
+    background-color: rgb(11, 11, 11);
+    background-image: url(/images/Grid\ two.jpeg 50%);
+    padding: 6%;
+
+}
+ 
+
+#take-action .heading{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+#take-action .heading h2{
+    font-size: 14px;
+    padding:5px;
+    background-color: #2d2d2d;
+    color: white;
+    width: 18%;
+    
+    
+}
+
+#take-action .heading h1{
+    font-size: 24px;
+    color: white;
+    line-height: 0.5;
+
+}
+
+#take-action h1 span{
+    color: #fb421f;
+}
+#take-action .cta-button {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+
+#take-action .cta-button p{
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+#take-action .cta-button a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+#take-action .cta-button a:hover{
+    color:white;
+    background-color: #fb421f;
+}
+
+/* flowi-blog section */
+#flowi-blog{
+   background-color: #f6f0e9;
+   padding: 6%;
+}
+
+
+#flowi-blog .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+
+#flowi-blog .heading h2{
+    font-size: 14px;
+    padding:5px;
+    width: 32%;
+    background-color: #e3ddd1;
+}
+
+#flowi-blog .heading h1{
+        font-size: 24px;
+         line-height: 0.5;
+    }
+
+ #flowi-blog .heading h1 span{
+     color: #fb421f;
+    }
+    
+ 
+    
+  
+
+    #flowi-blog .image-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+    }
+    #flowi-blog .image-container .first-blog{
+   
+        width: 30%;
+    }
+    
+    #flowi-blog .image-container .first-blog img{
+        /* width: 30%; */
+        height: 90px;
+        border-radius:15px ;
+    }
+
+    #flowi-blog .image-container .first-blog h2{
+        font-size: 16px;
+        /* margin-top: 10px; */
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .first-blog  p{
+        font-size: 14px;
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .first-blog a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 16px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        display: flex;
+        width: 70%;
+        gap: 7px;
+        margin-top: 5px;
+        
+    }
+    
+    #flowi-blog .image-container .first-blog a:hover{
+            background-color: white;
+            color: black;
+    }
+
+
+        #flowi-blog .image-container .second-blog {
+            width: 30%;
+        }
+
+        #flowi-blog .image-container .second-blog img{
+        /* width: 10%; */
+        height: 90px;
+        border-radius:15px ;
+    }
+
+    #flowi-blog .image-container .second-blog h2{
+        font-size: 16px;
+        /* margin-top: 10px; */
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .second-blog  p{
+        font-size: 14px;
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .second-blog a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 16px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        display: flex;
+        width: 70%;
+        gap: 7px;
+        margin-top: 5px;
+        
+    }
+    
+    #flowi-blog .image-container .second-blog a:hover{
+            background-color: white;
+            color: black;
+    }
+
+
+    #flowi-blog .image-container .third-blog{
+        width: 30%;
+    }
+    #flowi-blog .image-container .third-blog img{
+        /* width: 30%; */
+        height: 90px;
+        border-radius:15px ;
+    }
+
+    #flowi-blog .image-container .third-blog h2{
+        font-size: 16px;
+        /* margin-top: 10px; */
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .third-blog  p{
+        font-size: 14px;
+        /* width: 30%; */
+    }
+    #flowi-blog .image-container .third-blog a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 16px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+        display: flex;
+        width: 70%;
+        gap: 7px;
+        margin-top: 5px;
+        
+    }
+    
+    #flowi-blog .image-container .third-blog a:hover{
+            background-color: white;
+            color: black;
+    }
+  
+  
